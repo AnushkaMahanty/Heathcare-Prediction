@@ -1,20 +1,18 @@
-# Healthcare-Prediction
-
+# Healthcare-Prediction  
 A machine learning model for predicting diabetes using healthcare data.
 
-## 📌 Project Overview
-This project uses machine learning to predict whether a patient has diabetes based on various health metrics. The model is trained using a dataset containing medical features.
+## 🗂 Dataset Description  
+The dataset used in this project contains health-related attributes used to predict diabetes. Some key features include:
 
-## 🗂 Dataset Description
-The dataset includes features like:
-- Glucose Level
-- Blood Pressure
-- BMI (Body Mass Index)
-- Insulin Levels
-- Age
-- ... (Add more if needed)
+- **Glucose**: Plasma glucose concentration  
+- **Blood Pressure**: Diastolic blood pressure (mm Hg)  
+- **BMI**: Body Mass Index  
+- **Insulin**: 2-hour serum insulin level  
+- **Age**: Age of the patient in years  
+- **Outcome**: 1 (Diabetic), 0 (Non-Diabetic)  
 
-## 🚀 Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Healthcare-Prediction.git
+## 🚀 Installation & Usage  
+### 1️⃣ Install Required Libraries  
+Use the following command to install dependencies:  
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
